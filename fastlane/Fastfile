@@ -87,7 +87,7 @@ platform :ios do
     	include_symbols:false, #是否生成符号文件
     	output_directory:outputPath,
     	output_name: targetValue,
-      skip_profile_detection: true, #使用手动配置
+      skip_profile_detection: false, #使用手动配置
     	export_options: {
     		provisioningProfiles: { 
     			"com.chips.planner" => "ChipsAPPPlannerDisProfile"
