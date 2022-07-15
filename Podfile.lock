@@ -129,7 +129,6 @@ DEPENDENCIES:
   - LQGAdvert (from `https://github.com/LuoJianGitHub/LQGAdvert.git`, tag `1.0.0`)
   - LQGAdvert_Category (from `https://github.com/LuoJianGitHub/LQGAdvert_Category.git`, tag `1.0.0`)
   - LQGBaseAppDelegate
-  - LQGCategory (from `../../Base/LQGCategory`)
   - LQGGuide (from `https://github.com/LuoJianGitHub/LQGGuide.git`, tag `1.0.0`)
   - LQGGuide_Category (from `https://github.com/LuoJianGitHub/LQGGuide_Category.git`, tag `1.0.0`)
   - LQGLocalTool
@@ -156,6 +155,7 @@ SPEC REPOS:
     - LQGBaseModel
     - LQGBaseView
     - LQGBaseViewModel
+    - LQGCategory
     - LQGCTMediator
     - LQGLocalTool
     - LQGMacro
@@ -179,8 +179,6 @@ EXTERNAL SOURCES:
   LQGAdvert_Category:
     :git: https://github.com/LuoJianGitHub/LQGAdvert_Category.git
     :tag: 1.0.0
-  LQGCategory:
-    :path: "../../Base/LQGCategory"
   LQGGuide:
     :git: https://github.com/LuoJianGitHub/LQGGuide.git
     :tag: 1.0.0
@@ -321,6 +319,6 @@ SPEC CHECKSUMS:
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: a09ab0a0f8b03b29a3efcb32dabfd81ce9ab3f7d
+PODFILE CHECKSUM: b5946c7ff2023b48baa863f39d55e1dad4084ad7
 
 COCOAPODS: 1.11.2

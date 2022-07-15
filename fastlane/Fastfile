@@ -1,0 +1,161 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do 
+  lane :build do |options|
+  	puts "推送编译"
+  	targetValue = options[:target]
+  	if !targetValue.nil? && !targetValue.empty? then
+  		puts "指定Target：" + targetValue
+  	else
+  		targetValue = "CPSPlannerD"
+  		puts "未指定Target，使用默认值：" + targetValue
+  	end
+  	outputPath = options[:outputPath]
+  	if !outputPath.nil? && !outputPath.empty? then
+  		puts "指定输出目录：" + outputPath
+  	else
+  		outputPath = "./fastlane/debug"
+  		puts "未指定输出目录，使用默认值：" + outputPath
+  	end
+    #执行pod install
+    if !options[:updatePod].nil? && options[:updatePod] == true then
+      puts "更新cocoapods"
+      cocoapods(use_bundle_exec: false,
+        repo_update: true)
+    else
+      cocoapods(use_bundle_exec: false)
+    end
+  	xcbuild(scheme: targetValue,
+  		export_method: "enterprise",
+  		#configuration: "Debug",
+  		silent: true, #隐藏打包不需要的东西
+  		clean: true,
+  		include_symbols:true, #是否生成符号文件
+  		output_directory:outputPath,
+    	output_name: targetValue,
+      skip_profile_detection: true,
+  		export_options: {
+    		provisioningProfiles: { 
+    			"com.chips.planner" => "ChipsAPPPlannerDisProfile"
+    		}
+    	}
+  	)
+  end
+
+  lane :beta do |options|
+  	puts "打包开发版本"
+  	targetValue = options[:target]
+  	if !targetValue.nil? && !targetValue.empty? then
+  		puts "指定Target：" + targetValue
+  	else
+  		targetValue = "CPSPlannerD"
+  		puts "未指定Target，使用默认值：" + targetValue
+  	end
+  	outputPath = options[:outputPath]
+  	if !outputPath.nil? && !outputPath.empty? then
+  		puts "指定输出目录：" + outputPath
+  	else
+  		outputPath = "./fastlane/debug"
+  		puts "未指定输出目录，使用默认值：" + outputPath
+  	end
+    #执行pod install
+    if !options[:updatePod].nil? && options[:updatePod] == true then
+      puts "更新cocoapods"
+      cocoapods(use_bundle_exec: false,
+        repo_update: true)
+    else
+      cocoapods(use_bundle_exec: false)
+    end
+    build_app(scheme:targetValue,
+    	export_method: "enterprise",
+    	clean: true,
+    	include_symbols:false, #是否生成符号文件
+    	output_directory:outputPath,
+    	output_name: targetValue,
+      skip_profile_detection: true, #使用手动配置
+    	export_options: {
+    		provisioningProfiles: { 
+    			"com.chips.planner" => "ChipsAPPPlannerDisProfile"
+    		}
+    	}
+    )
+    uploadTopgyer(options)
+  end
+
+  lane :product do |options|
+  	puts "打包发布版本"
+  	outputPath = options[:outputPath]
+  	if !outputPath.nil? && !outputPath.empty? then
+  		puts "指定输出目录：" + outputPath
+  	else
+  		outputPath = "./fastlane/release"
+  		puts "未指定输出目录，使用默认值：" + outputPath
+  	end
+    #执行pod install
+    if !options[:updatePod].nil? && options[:updatePod] == true then
+      puts "更新cocoapods"
+      cocoapods(use_bundle_exec: false,
+        repo_update: true)
+    else
+      cocoapods(use_bundle_exec: false)
+    end
+  	gym(scheme:"CPSPlannerR",
+  		export_method:"enterprise",
+  		clean: true,
+    	include_symbols:true, #是否生成产符号文件
+  		output_directory:outputPath,
+  		output_name:"CPSPlannerR_Release",
+      skip_profile_detection: true,
+  		export_options: {
+    		provisioningProfiles: { 
+    			"com.chips.planner" => "ChipsAPPPlannerDisProfile"
+    		}
+    	}
+  	)
+  	uploadTopgyer(options)
+  end
+
+  lane :uploadTopgyer do |options|
+  	puts "进入打包之后上传模块"
+  	if !options[:upload].nil? && options[:upload] == true then
+      puts "打包完成，即将自动上传到蒲公英"
+      gitCommitLogs = changelog_from_git_commits(
+        pretty: "- (%ae) %s",
+        date_format: "short",
+        match_lightweight_tag: false,
+        merge_commit_filtering: "exclude_merges",
+        commits_count: 10, #取最近10条提交日志
+      )
+      puts gitCommitLogs
+
+      apiKeyStr = "9e1664af02e94ff9f1be50764f261f11"
+      userKeyStr = "91f8f7c34f8218dc166dd79458a7e423"
+      if !options[:apiKey].nil? && options[:apiKey] != '' then
+        if !options[:userKey].nil? && options[:userKey] != '' then
+          apiKeyStr = options[:apiKey]
+          userKeyStr = options[:userKey]
+        end
+      end
+      puts "蒲公英APIKEY：" + apiKeyStr
+      puts "蒲公英USERKEY：" + userKeyStr
+      pgyer(api_key: apiKeyStr, user_key: userKeyStr, password: "dgg123", install_type: "2", update_description: gitCommitLogs)
+    else
+      puts "打包完成，请手动将安装包上传到蒲公英"
+    end
+  end
+end
