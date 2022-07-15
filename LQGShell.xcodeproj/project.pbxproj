@@ -11,17 +11,35 @@
 		F67111F327759DFF00422246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
 		F67111FC27759E0100422246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
 		F67111FF27759E0100422246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F51D028813E9900034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F51D228813E9900034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F51D428813E9900034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F51D528813E9900034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F51DF28813EA800034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F51E128813EA800034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F51E328813EA800034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F51E428813EA800034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F51EE28813EB400034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F51F028813EB400034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F51F228813EB400034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F51F328813EB400034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQGShell.release.xcconfig"; path = "Target Support Files/Pods-LQGShell/Pods-LQGShell.release.xcconfig"; sourceTree = "<group>"; };
 		756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQGShell.debug.xcconfig"; path = "Target Support Files/Pods-LQGShell/Pods-LQGShell.debug.xcconfig"; sourceTree = "<group>"; };
 		D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQGShell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F67111EF27759DFF00422246 /* LQGShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67111EF27759DFF00422246 /* LQGShellR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67111F227759DFF00422246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F67111FB27759E0100422246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67111FE27759E0100422246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F671120027759E0100422246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69F51DA28813E9900034318 /* LQGShellD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F51DB28813E9A00034318 /* LQGShell copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy-Info.plist"; sourceTree = "<absolute>"; };
+		F69F51E928813EA800034318 /* LQGShellT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F51EA28813EA800034318 /* LQGShell copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy2-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy2-Info.plist"; sourceTree = "<absolute>"; };
+		F69F51F828813EB400034318 /* LQGShellP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F51F928813EB400034318 /* LQGShell copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy3-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy3-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +48,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				168FDA99612D97D354B4F7DD /* Pods_LQGShell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51D128813E9900034318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51D228813E9900034318 /* Pods_LQGShell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51E028813EA800034318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51E128813EA800034318 /* Pods_LQGShell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51EF28813EB400034318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51F028813EB400034318 /* Pods_LQGShell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,13 +102,19 @@
 				F67111F027759DFF00422246 /* Products */,
 				22237F6C7CAE10AE0075B5EB /* Pods */,
 				AE8E7B07B48B7E5E7B2CF964 /* Frameworks */,
+				F69F51DB28813E9A00034318 /* LQGShell copy-Info.plist */,
+				F69F51EA28813EA800034318 /* LQGShell copy2-Info.plist */,
+				F69F51F928813EB400034318 /* LQGShell copy3-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		F67111F027759DFF00422246 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F67111EF27759DFF00422246 /* LQGShell.app */,
+				F67111EF27759DFF00422246 /* LQGShellR.app */,
+				F69F51DA28813E9900034318 /* LQGShellD.app */,
+				F69F51E928813EA800034318 /* LQGShellT.app */,
+				F69F51F828813EB400034318 /* LQGShellP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F67111EE27759DFF00422246 /* LQGShell */ = {
+		F67111EE27759DFF00422246 /* LQGShellR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F671120327759E0100422246 /* Build configuration list for PBXNativeTarget "LQGShell" */;
+			buildConfigurationList = F671120327759E0100422246 /* Build configuration list for PBXNativeTarget "LQGShellR" */;
 			buildPhases = (
 				E3D52829C1900DC492D38EA0 /* [CP] Check Pods Manifest.lock */,
 				F67111EB27759DFF00422246 /* Sources */,
@@ -131,9 +179,66 @@
 			);
 			dependencies = (
 			);
-			name = LQGShell;
+			name = LQGShellR;
 			productName = LQGShell;
-			productReference = F67111EF27759DFF00422246 /* LQGShell.app */;
+			productReference = F67111EF27759DFF00422246 /* LQGShellR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69F51CD28813E9900034318 /* LQGShellD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F51D728813E9900034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */;
+			buildPhases = (
+				F69F51CE28813E9900034318 /* [CP] Check Pods Manifest.lock */,
+				F69F51CF28813E9900034318 /* Sources */,
+				F69F51D128813E9900034318 /* Frameworks */,
+				F69F51D328813E9900034318 /* Resources */,
+				F69F51D628813E9900034318 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQGShellD;
+			productName = LQGShell;
+			productReference = F69F51DA28813E9900034318 /* LQGShellD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69F51DC28813EA800034318 /* LQGShellT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F51E628813EA800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */;
+			buildPhases = (
+				F69F51DD28813EA800034318 /* [CP] Check Pods Manifest.lock */,
+				F69F51DE28813EA800034318 /* Sources */,
+				F69F51E028813EA800034318 /* Frameworks */,
+				F69F51E228813EA800034318 /* Resources */,
+				F69F51E528813EA800034318 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQGShellT;
+			productName = LQGShell;
+			productReference = F69F51E928813EA800034318 /* LQGShellT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69F51EB28813EB400034318 /* LQGShellP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F51F528813EB400034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */;
+			buildPhases = (
+				F69F51EC28813EB400034318 /* [CP] Check Pods Manifest.lock */,
+				F69F51ED28813EB400034318 /* Sources */,
+				F69F51EF28813EB400034318 /* Frameworks */,
+				F69F51F128813EB400034318 /* Resources */,
+				F69F51F428813EB400034318 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQGShellP;
+			productName = LQGShell;
+			productReference = F69F51F828813EB400034318 /* LQGShellP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +270,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F67111EE27759DFF00422246 /* LQGShell */,
+				F69F51CD28813E9900034318 /* LQGShellD */,
+				F69F51DC28813EA800034318 /* LQGShellT */,
+				F69F51EB28813EB400034318 /* LQGShellP */,
+				F67111EE27759DFF00422246 /* LQGShellR */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +285,33 @@
 			files = (
 				F67111FF27759E0100422246 /* LaunchScreen.storyboard in Resources */,
 				F67111FC27759E0100422246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51D328813E9900034318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51D428813E9900034318 /* LaunchScreen.storyboard in Resources */,
+				F69F51D528813E9900034318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51E228813EA800034318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51E328813EA800034318 /* LaunchScreen.storyboard in Resources */,
+				F69F51E428813EA800034318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51F128813EB400034318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51F228813EB400034318 /* LaunchScreen.storyboard in Resources */,
+				F69F51F328813EB400034318 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +357,123 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F69F51CE28813E9900034318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQGShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69F51D628813E9900034318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69F51DD28813EA800034318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQGShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69F51E528813EA800034318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69F51EC28813EB400034318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LQGShell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69F51F428813EB400034318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -230,6 +482,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				F67111F327759DFF00422246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51CF28813E9900034318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51D028813E9900034318 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51DE28813EA800034318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51DF28813EA800034318 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69F51ED28813EB400034318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F51EE28813EB400034318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +706,207 @@
 			};
 			name = Release;
 		};
+		F69F51D828813E9900034318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F69F51D928813E9900034318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F69F51E728813EA800034318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F69F51E828813EA800034318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy2-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F69F51F628813EB400034318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy3-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F69F51F728813EB400034318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J8CAUE4QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LQGShell copy3-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luojian.LQGShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,11 +919,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F671120327759E0100422246 /* Build configuration list for PBXNativeTarget "LQGShell" */ = {
+		F671120327759E0100422246 /* Build configuration list for PBXNativeTarget "LQGShellR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F671120427759E0100422246 /* Debug */,
 				F671120527759E0100422246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F51D728813E9900034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F51D828813E9900034318 /* Debug */,
+				F69F51D928813E9900034318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F51E628813EA800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F51E728813EA800034318 /* Debug */,
+				F69F51E828813EA800034318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F51F528813EB400034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F51F628813EB400034318 /* Debug */,
+				F69F51F728813EB400034318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
