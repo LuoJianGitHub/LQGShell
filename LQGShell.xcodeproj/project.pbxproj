@@ -11,18 +11,30 @@
 		F67111F327759DFF00422246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
 		F67111FC27759E0100422246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
 		F67111FF27759E0100422246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
-		F69F51D028813E9900034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
-		F69F51D228813E9900034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
-		F69F51D428813E9900034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
-		F69F51D528813E9900034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
-		F69F51DF28813EA800034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
-		F69F51E128813EA800034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
-		F69F51E328813EA800034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
-		F69F51E428813EA800034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
-		F69F51EE28813EB400034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
-		F69F51F028813EB400034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
-		F69F51F228813EB400034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
-		F69F51F328813EB400034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F521B288156F800034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F521D288156F800034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F521F288156F800034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F5220288156F800034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F522A2881574E00034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F522C2881574E00034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F522E2881574E00034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F522F2881574E00034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F52392881576200034318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67111F227759DFF00422246 /* AppDelegate.swift */; };
+		F69F523B2881576200034318 /* Pods_LQGShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793D332DBEB9854D5FDEB85 /* Pods_LQGShell.framework */; };
+		F69F523D2881576200034318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67111FD27759E0100422246 /* LaunchScreen.storyboard */; };
+		F69F523E2881576200034318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67111FB27759E0100422246 /* Assets.xcassets */; };
+		F69F5248288157CD00034318 /* Info_T.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5245288157CD00034318 /* Info_T.plist */; };
+		F69F5249288157CD00034318 /* Info_T.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5245288157CD00034318 /* Info_T.plist */; };
+		F69F524A288157CD00034318 /* Info_T.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5245288157CD00034318 /* Info_T.plist */; };
+		F69F524B288157CD00034318 /* Info_T.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5245288157CD00034318 /* Info_T.plist */; };
+		F69F524C288157CD00034318 /* Info_P.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5246288157CD00034318 /* Info_P.plist */; };
+		F69F524D288157CD00034318 /* Info_P.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5246288157CD00034318 /* Info_P.plist */; };
+		F69F524E288157CD00034318 /* Info_P.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5246288157CD00034318 /* Info_P.plist */; };
+		F69F524F288157CD00034318 /* Info_P.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5246288157CD00034318 /* Info_P.plist */; };
+		F69F5250288157CD00034318 /* Info_R.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5247288157CD00034318 /* Info_R.plist */; };
+		F69F5251288157CD00034318 /* Info_R.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5247288157CD00034318 /* Info_R.plist */; };
+		F69F5252288157CD00034318 /* Info_R.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5247288157CD00034318 /* Info_R.plist */; };
+		F69F5253288157CD00034318 /* Info_R.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69F5247288157CD00034318 /* Info_R.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +45,13 @@
 		F67111F227759DFF00422246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F67111FB27759E0100422246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67111FE27759E0100422246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F671120027759E0100422246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F69F51DA28813E9900034318 /* LQGShellD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69F51DB28813E9A00034318 /* LQGShell copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy-Info.plist"; sourceTree = "<absolute>"; };
-		F69F51E928813EA800034318 /* LQGShellT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69F51EA28813EA800034318 /* LQGShell copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy2-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy2-Info.plist"; sourceTree = "<absolute>"; };
-		F69F51F828813EB400034318 /* LQGShellP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69F51F928813EB400034318 /* LQGShell copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LQGShell copy3-Info.plist"; path = "/Users/luojian/Desktop/work/个人/iOS/Project/LQGShell/LQGShell copy3-Info.plist"; sourceTree = "<absolute>"; };
+		F671120027759E0100422246 /* Info_D.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_D.plist; sourceTree = "<group>"; };
+		F69F5225288156F800034318 /* LQGShellT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F52342881574E00034318 /* LQGShellP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F52432881576200034318 /* LQGShellD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQGShellD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F5245288157CD00034318 /* Info_T.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_T.plist; sourceTree = "<group>"; };
+		F69F5246288157CD00034318 /* Info_P.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_P.plist; sourceTree = "<group>"; };
+		F69F5247288157CD00034318 /* Info_R.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_R.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,27 +63,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51D128813E9900034318 /* Frameworks */ = {
+		F69F521C288156F800034318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51D228813E9900034318 /* Pods_LQGShell.framework in Frameworks */,
+				F69F521D288156F800034318 /* Pods_LQGShell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51E028813EA800034318 /* Frameworks */ = {
+		F69F522B2881574E00034318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51E128813EA800034318 /* Pods_LQGShell.framework in Frameworks */,
+				F69F522C2881574E00034318 /* Pods_LQGShell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51EF28813EB400034318 /* Frameworks */ = {
+		F69F523A2881576200034318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51F028813EB400034318 /* Pods_LQGShell.framework in Frameworks */,
+				F69F523B2881576200034318 /* Pods_LQGShell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +114,6 @@
 				F67111F027759DFF00422246 /* Products */,
 				22237F6C7CAE10AE0075B5EB /* Pods */,
 				AE8E7B07B48B7E5E7B2CF964 /* Frameworks */,
-				F69F51DB28813E9A00034318 /* LQGShell copy-Info.plist */,
-				F69F51EA28813EA800034318 /* LQGShell copy2-Info.plist */,
-				F69F51F928813EB400034318 /* LQGShell copy3-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				F67111EF27759DFF00422246 /* LQGShellR.app */,
-				F69F51DA28813E9900034318 /* LQGShellD.app */,
-				F69F51E928813EA800034318 /* LQGShellT.app */,
-				F69F51F828813EB400034318 /* LQGShellP.app */,
+				F69F5225288156F800034318 /* LQGShellT.app */,
+				F69F52342881574E00034318 /* LQGShellP.app */,
+				F69F52432881576200034318 /* LQGShellD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,7 +165,10 @@
 		F671120A27759FF300422246 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F671120027759E0100422246 /* Info.plist */,
+				F671120027759E0100422246 /* Info_D.plist */,
+				F69F5246288157CD00034318 /* Info_P.plist */,
+				F69F5247288157CD00034318 /* Info_R.plist */,
+				F69F5245288157CD00034318 /* Info_T.plist */,
 				F67111FD27759E0100422246 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
@@ -184,34 +196,15 @@
 			productReference = F67111EF27759DFF00422246 /* LQGShellR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F69F51CD28813E9900034318 /* LQGShellD */ = {
+		F69F5218288156F800034318 /* LQGShellT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F69F51D728813E9900034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */;
+			buildConfigurationList = F69F5222288156F800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */;
 			buildPhases = (
-				F69F51CE28813E9900034318 /* [CP] Check Pods Manifest.lock */,
-				F69F51CF28813E9900034318 /* Sources */,
-				F69F51D128813E9900034318 /* Frameworks */,
-				F69F51D328813E9900034318 /* Resources */,
-				F69F51D628813E9900034318 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LQGShellD;
-			productName = LQGShell;
-			productReference = F69F51DA28813E9900034318 /* LQGShellD.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F69F51DC28813EA800034318 /* LQGShellT */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F69F51E628813EA800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */;
-			buildPhases = (
-				F69F51DD28813EA800034318 /* [CP] Check Pods Manifest.lock */,
-				F69F51DE28813EA800034318 /* Sources */,
-				F69F51E028813EA800034318 /* Frameworks */,
-				F69F51E228813EA800034318 /* Resources */,
-				F69F51E528813EA800034318 /* [CP] Embed Pods Frameworks */,
+				F69F5219288156F800034318 /* [CP] Check Pods Manifest.lock */,
+				F69F521A288156F800034318 /* Sources */,
+				F69F521C288156F800034318 /* Frameworks */,
+				F69F521E288156F800034318 /* Resources */,
+				F69F5221288156F800034318 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,18 +212,18 @@
 			);
 			name = LQGShellT;
 			productName = LQGShell;
-			productReference = F69F51E928813EA800034318 /* LQGShellT.app */;
+			productReference = F69F5225288156F800034318 /* LQGShellT.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F69F51EB28813EB400034318 /* LQGShellP */ = {
+		F69F52272881574E00034318 /* LQGShellP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F69F51F528813EB400034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */;
+			buildConfigurationList = F69F52312881574E00034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */;
 			buildPhases = (
-				F69F51EC28813EB400034318 /* [CP] Check Pods Manifest.lock */,
-				F69F51ED28813EB400034318 /* Sources */,
-				F69F51EF28813EB400034318 /* Frameworks */,
-				F69F51F128813EB400034318 /* Resources */,
-				F69F51F428813EB400034318 /* [CP] Embed Pods Frameworks */,
+				F69F52282881574E00034318 /* [CP] Check Pods Manifest.lock */,
+				F69F52292881574E00034318 /* Sources */,
+				F69F522B2881574E00034318 /* Frameworks */,
+				F69F522D2881574E00034318 /* Resources */,
+				F69F52302881574E00034318 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,7 +231,26 @@
 			);
 			name = LQGShellP;
 			productName = LQGShell;
-			productReference = F69F51F828813EB400034318 /* LQGShellP.app */;
+			productReference = F69F52342881574E00034318 /* LQGShellP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F69F52362881576200034318 /* LQGShellD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F52402881576200034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */;
+			buildPhases = (
+				F69F52372881576200034318 /* [CP] Check Pods Manifest.lock */,
+				F69F52382881576200034318 /* Sources */,
+				F69F523A2881576200034318 /* Frameworks */,
+				F69F523C2881576200034318 /* Resources */,
+				F69F523F2881576200034318 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQGShellD;
+			productName = LQGShell;
+			productReference = F69F52432881576200034318 /* LQGShellD.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -270,9 +282,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F69F51CD28813E9900034318 /* LQGShellD */,
-				F69F51DC28813EA800034318 /* LQGShellT */,
-				F69F51EB28813EB400034318 /* LQGShellP */,
+				F69F52362881576200034318 /* LQGShellD */,
+				F69F5218288156F800034318 /* LQGShellT */,
+				F69F52272881574E00034318 /* LQGShellP */,
 				F67111EE27759DFF00422246 /* LQGShellR */,
 			);
 		};
@@ -283,35 +295,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69F524B288157CD00034318 /* Info_T.plist in Resources */,
+				F69F524F288157CD00034318 /* Info_P.plist in Resources */,
+				F69F5253288157CD00034318 /* Info_R.plist in Resources */,
 				F67111FF27759E0100422246 /* LaunchScreen.storyboard in Resources */,
 				F67111FC27759E0100422246 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51D328813E9900034318 /* Resources */ = {
+		F69F521E288156F800034318 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51D428813E9900034318 /* LaunchScreen.storyboard in Resources */,
-				F69F51D528813E9900034318 /* Assets.xcassets in Resources */,
+				F69F5249288157CD00034318 /* Info_T.plist in Resources */,
+				F69F524D288157CD00034318 /* Info_P.plist in Resources */,
+				F69F5251288157CD00034318 /* Info_R.plist in Resources */,
+				F69F521F288156F800034318 /* LaunchScreen.storyboard in Resources */,
+				F69F5220288156F800034318 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51E228813EA800034318 /* Resources */ = {
+		F69F522D2881574E00034318 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51E328813EA800034318 /* LaunchScreen.storyboard in Resources */,
-				F69F51E428813EA800034318 /* Assets.xcassets in Resources */,
+				F69F524A288157CD00034318 /* Info_T.plist in Resources */,
+				F69F524E288157CD00034318 /* Info_P.plist in Resources */,
+				F69F5252288157CD00034318 /* Info_R.plist in Resources */,
+				F69F522E2881574E00034318 /* LaunchScreen.storyboard in Resources */,
+				F69F522F2881574E00034318 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51F128813EB400034318 /* Resources */ = {
+		F69F523C2881576200034318 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51F228813EB400034318 /* LaunchScreen.storyboard in Resources */,
-				F69F51F328813EB400034318 /* Assets.xcassets in Resources */,
+				F69F5248288157CD00034318 /* Info_T.plist in Resources */,
+				F69F524C288157CD00034318 /* Info_P.plist in Resources */,
+				F69F5250288157CD00034318 /* Info_R.plist in Resources */,
+				F69F523D2881576200034318 /* LaunchScreen.storyboard in Resources */,
+				F69F523E2881576200034318 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +381,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51CE28813E9900034318 /* [CP] Check Pods Manifest.lock */ = {
+		F69F5219288156F800034318 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,7 +403,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51D628813E9900034318 /* [CP] Embed Pods Frameworks */ = {
+		F69F5221288156F800034318 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,7 +420,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51DD28813EA800034318 /* [CP] Check Pods Manifest.lock */ = {
+		F69F52282881574E00034318 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,7 +442,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51E528813EA800034318 /* [CP] Embed Pods Frameworks */ = {
+		F69F52302881574E00034318 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,7 +459,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQGShell/Pods-LQGShell-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51EC28813EB400034318 /* [CP] Check Pods Manifest.lock */ = {
+		F69F52372881576200034318 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +481,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F69F51F428813EB400034318 /* [CP] Embed Pods Frameworks */ = {
+		F69F523F2881576200034318 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,27 +509,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51CF28813E9900034318 /* Sources */ = {
+		F69F521A288156F800034318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51D028813E9900034318 /* AppDelegate.swift in Sources */,
+				F69F521B288156F800034318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51DE28813EA800034318 /* Sources */ = {
+		F69F52292881574E00034318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51DF28813EA800034318 /* AppDelegate.swift in Sources */,
+				F69F522A2881574E00034318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69F51ED28813EB400034318 /* Sources */ = {
+		F69F52382881576200034318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69F51EE28813EB400034318 /* AppDelegate.swift in Sources */,
+				F69F52392881576200034318 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +674,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LQGShell/Info.plist;
+				INFOPLIST_FILE = LQGShell/Info_R.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -684,7 +708,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LQGShell/Info.plist;
+				INFOPLIST_FILE = LQGShell/Info_R.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -706,7 +730,7 @@
 			};
 			name = Release;
 		};
-		F69F51D828813E9900034318 /* Debug */ = {
+		F69F5223288156F800034318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
 			buildSettings = {
@@ -717,7 +741,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_T.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -740,7 +764,7 @@
 			};
 			name = Debug;
 		};
-		F69F51D928813E9900034318 /* Release */ = {
+		F69F5224288156F800034318 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
 			buildSettings = {
@@ -751,7 +775,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_T.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -773,7 +797,7 @@
 			};
 			name = Release;
 		};
-		F69F51E728813EA800034318 /* Debug */ = {
+		F69F52322881574E00034318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
 			buildSettings = {
@@ -784,7 +808,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy2-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_P.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -807,7 +831,7 @@
 			};
 			name = Debug;
 		};
-		F69F51E828813EA800034318 /* Release */ = {
+		F69F52332881574E00034318 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
 			buildSettings = {
@@ -818,7 +842,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy2-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_P.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -840,7 +864,7 @@
 			};
 			name = Release;
 		};
-		F69F51F628813EB400034318 /* Debug */ = {
+		F69F52412881576200034318 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 756B6106D7C263055846AC2B /* Pods-LQGShell.debug.xcconfig */;
 			buildSettings = {
@@ -851,7 +875,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy3-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_D.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -874,7 +898,7 @@
 			};
 			name = Debug;
 		};
-		F69F51F728813EB400034318 /* Release */ = {
+		F69F52422881576200034318 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B7BB0CD27EB944B51CDA400 /* Pods-LQGShell.release.xcconfig */;
 			buildSettings = {
@@ -885,7 +909,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8J8CAUE4QY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LQGShell copy3-Info.plist";
+				INFOPLIST_FILE = LQGShell/Info_D.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "壳工程";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -928,29 +952,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F69F51D728813E9900034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */ = {
+		F69F5222288156F800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F69F51D828813E9900034318 /* Debug */,
-				F69F51D928813E9900034318 /* Release */,
+				F69F5223288156F800034318 /* Debug */,
+				F69F5224288156F800034318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F69F51E628813EA800034318 /* Build configuration list for PBXNativeTarget "LQGShellT" */ = {
+		F69F52312881574E00034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F69F51E728813EA800034318 /* Debug */,
-				F69F51E828813EA800034318 /* Release */,
+				F69F52322881574E00034318 /* Debug */,
+				F69F52332881574E00034318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F69F51F528813EB400034318 /* Build configuration list for PBXNativeTarget "LQGShellP" */ = {
+		F69F52402881576200034318 /* Build configuration list for PBXNativeTarget "LQGShellD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F69F51F628813EB400034318 /* Debug */,
-				F69F51F728813EB400034318 /* Release */,
+				F69F52412881576200034318 /* Debug */,
+				F69F52422881576200034318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
