@@ -106,7 +106,7 @@ def flutterPods
 #  install_all_flutter_pods(flutter_application_path)
 end
 
-targets = ['LQGShell']
+targets = ['LQGShellD', 'LQGShellT', 'LQGShellP', 'LQGShellR']
 
 targets.each do |t|
   target t do
