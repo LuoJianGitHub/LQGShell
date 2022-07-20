@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F67111EE27759DFF00422246"
-               BuildableName = "LQGShell.app"
+               BuildableName = "LQGShellR.app"
                BlueprintName = "LQGShellR"
                ReferencedContainer = "container:LQGShell.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F67111EE27759DFF00422246"
-            BuildableName = "LQGShell.app"
+            BuildableName = "LQGShellR.app"
             BlueprintName = "LQGShellR"
             ReferencedContainer = "container:LQGShell.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F67111EE27759DFF00422246"
-            BuildableName = "LQGShell.app"
+            BuildableName = "LQGShellR.app"
             BlueprintName = "LQGShellR"
             ReferencedContainer = "container:LQGShell.xcodeproj">
          </BuildableReference>
